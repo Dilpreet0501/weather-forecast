@@ -1,0 +1,84 @@
+body{
+    padding: 100px;
+    background-color: rgb(33, 33, 33);
+    color: rgb(244, 246, 248);
+    font: bold sans-serif;
+}
+label{
+text-align: right;
+font-size: 300%;
+}
+.date{
+    font-size: 150%;
+}
+.time{
+    font-size: 200%;
+}
+#text{
+    size: 200%;
+    text-align: center;
+    width: 30%;
+    height: 10%;
+    
+}
+
+.search{
+    color: rgb(247, 248, 249);
+    background-color: rgb(5, 61, 121);
+    padding: 2px;
+   
+    border-radius: 100px;
+    font: bold sans-serif;
+    font-size: 20px;
+}
+.get{
+    color: rgb(247, 248, 249);
+    background-color: rgb(5, 61, 121);
+    padding: 5px;
+    width: 60%;
+    border-radius: 100px;
+    font: bold sans-serif;
+    font-size: 20px;
+    /* opacity: 1; */
+}
+label,#text,.get{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.get:hover{
+    background-color: rgb(142, 190, 240);
+}
+.search:hover{
+    background-color: rgb(142, 190, 240);
+}
+.data{
+    font-size: 150%;
+}
+.temp{
+    font-size: 200%;
+}
+.icon,.description,.humidity,.wind{
+    font-size: 90% !important;
+}
+.left{
+    float:left; width: 49%;
+}
+.right{
+    float:right; width: 49%;
+}
+@media all and (max-width:1400px) {
+    .left{
+        float:left; width: 46%;
+    }
+    .right{
+        float:right; width: 48%;
+    }
+}
+@media all and (max-width:850px) {
+    .left{
+        float:left; width: 44%;
+    }
+    .right{
+        float:right; width: 46%;
+    }
+}
